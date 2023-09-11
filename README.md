@@ -1,42 +1,57 @@
-# Frontend Mentor - Results summary component
+# Frontend Mentor - Results summary component solution
 
-![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
+This is a solution to the [Results summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Welcome! 👋
+## Table of contents
 
-Thanks for checking out this front-end coding challenge.
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-#### Create a custom `README.md`
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
+## Overview
 
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
+### Screenshot
 
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
+![](./Screenshot.png)
 
-## Submitting your solution
+### Links
 
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
+- Solution URL: [](https://github.com/Mohamed-0Sabry/Results-summary-component)
+- Live Site URL: [](https://mohamed-0sabry.github.io/Results-summary-component/)
 
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
+## My process
 
-## Sharing your solution
+### Built with
 
-There are multiple places you can share your solution:
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- Tailwind CSS
 
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack).
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
+### What I learned
 
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback.
+This was my Second Project Using Tailwind, But I could say that I've learned alot , The fact That tailwind is bulit using Utility-First Structure is what makes it very customizable and simple, although the Calss names would be like this
 
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
+```html
+<main
+  class="rounded-3xl drop-shadow-xl lg:w-1/2 bg-white flex flex-col lg:flex-row lg:relative lg:top-1/2 lg:left-1/2 lg:translate-y-1/2 lg:-translate-x-1/2"
+>
+  <section
+    class="z-10 shadow-2xl lg:shadow-xl lg:shadow-[var(--gradient-lightRoyalBlue-lowerOpacity)] lg:hover:shadow-xl lg:hover:shadow-[var(--gradient-lightSlateBlue)] shadow-[var(--gradient-lightRoyalBlue-lowerOpacity)] rounded-xl lg:rounded-3xl flex-1 basis-1/2 left items-center py-7 px-12 text-white flex flex-col text-center gap-4"
+  ></section>
+</main>
+```
 
-## Got feedback for us?
+But I actually got used to his View, Not quite XD
 
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
+## Author
 
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+- LinkedIn - [Mohamed Sabry](https://www.linkedin.com/in/mohamed-sabry-eng/)
+- Frontend Mentor - [@Mohamed-0Sabry](https://www.frontendmentor.io/profile/Mohamed-0Sabry)
