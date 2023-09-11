@@ -1,0 +1,70 @@
+:root {
+  --primary-lightRed: hsl(0, 100%, 67%);
+  --primary-orangyYellow: hsl(39, 100%, 56%);
+  --primary-greenTeal: hsl(166, 100%, 37%);
+  --primary-cobaltBlue: hsl(234, 85%, 45%);
+  --gradient-lightSlateBlue: hsl(252, 100%, 67%);
+  --gradient-lightRoyalBlue: hsl(241, 81%, 54%);
+  --gradient-lightRoyalBlue-lowerOpacity: hsl(241, 81%, 54%, 0.6);
+  --gradient-violetBlue: hsla(256, 72%, 46%, 1);
+  --gradient-persianBlue: hsla(241, 72%, 46%, 0);
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-paleBlue: hsl(221, 100%, 96%);
+  --neutral-lightLavender: hsl(241, 100%, 89%);
+  --neutral-darkGreyBlue: hsl(224, 30%, 27%);
+}
+
+body {
+  background-color: var(--neutral-paleBlue);
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.left {
+  background-image: linear-gradient(
+    var(--gradient-lightSlateBlue),
+    var(--gradient-lightRoyalBlue)
+  );
+}
+
+.right {
+  background-color: var(--neutral-white);
+}
+
+.circle > p {
+  background-image: linear-gradient(
+    var(--gradient-violetBlue),
+    var(--gradient-persianBlue)
+  );
+}
+
+.first {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.second {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+.third {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+.fourth {
+  background-color: hsl(234, 85%, 45%, 0.1);
+}
+
+.table-block .num {
+  color: var(--neutral-darkGreyBlue);
+  font-weight: 800;
+}
+
+.opacity {
+  opacity: 0.2;
+}
+
+button:hover {
+  background-image: linear-gradient(
+    var(--gradient-lightSlateBlue),
+    var(--gradient-lightRoyalBlue)
+  );
+}

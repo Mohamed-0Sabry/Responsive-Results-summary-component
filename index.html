@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor | Results summary component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- widht of 1/2 -->
+    <main
+      class="rounded-3xl drop-shadow-xl lg:w-1/2 bg-white flex flex-col lg:flex-row lg:relative lg:top-1/2 lg:left-1/2 lg:translate-y-1/2 lg:-translate-x-1/2"
+    >
+      <!-- Start of Left Section -->
+      <section
+        class="z-10 shadow-2xl lg:shadow-xl lg:shadow-[var(--gradient-lightRoyalBlue-lowerOpacity)] lg:hover:shadow-xl lg:hover:shadow-[var(--gradient-lightSlateBlue)] shadow-[var(--gradient-lightRoyalBlue-lowerOpacity)] rounded-xl lg:rounded-3xl flex-1 basis-1/2 left items-center py-7 px-12 text-white flex flex-col text-center gap-4"
+      >
+        <p class="text-lg lg:text-3xl">Your Result</p>
+        <div class="circle">
+          <p
+            class="flex flex-col p-3 w-40 h-40 justify-center rounded-full text-sm"
+          >
+            <span class="text-5xl font-extrabold">76</span>
+            of 100
+          </p>
+        </div>
+        <span class="text-2xl lg:text-6xl font-bold">Great</span>
+        <p class="text-[14px]">
+          You scored higher than 65% of the people who have taken these rests.
+        </p>
+      </section>
+      <!-- End of Left Section -->
+
+      <!-- Start of the Right Section -->
+      <section
+        class="right rounded-3xl gap-8 text-e flex basis-1/2 flex-1 flex-col p-5"
+      >
+        <h1 class="font-bold">Summary</h1>
+        <div class="results-table flex flex-col gap-2.5">
+          <!-- First Table Block -->
+          <div
+            class="first table-block justify-between flex flex-row p-4 rounded-lg flex-wrap text-center"
+          >
+            <div class="left-table-block flex gap-2 font-medium">
+              <img src="/assets/images/icon-reaction.svg" alt="reactio_icon" />
+              <span class="text-[var(--primary-lightRed)]">Reaction</span>
+            </div>
+            <span>
+              <span class="num">80</span>
+              <span class="opacity-40">/ 100 </span>
+            </span>
+          </div>
+          <!-- Second Table Block -->
+          <div
+            class="second table-block justify-between flex flex-row p-4 rounded-lg flex-wrap"
+          >
+            <div class="left-table-block flex gap-2">
+              <img src="/assets/images/icon-memory.svg" alt="Memory_icon" />
+              <span class="text-[var(--primary-orangyYellow)]">Memory</span>
+            </div>
+            <span>
+              <span class="num">92 </span>
+              <span class="opacity-40">/ 100 </span>
+            </span>
+          </div>
+          <!-- Third Table Block -->
+          <div
+            class="third table-block justify-between flex flex-row p-4 rounded-lg flex-wrap"
+          >
+            <div class="left-table-block flex gap-2">
+              <img src="/assets/images/icon-verbal.svg" alt="Verbal_icon" />
+              <span class="text-[var(--primary-greenTeal)]">Verbal</span>
+            </div>
+            <span>
+              <span class="num">61 </span>
+              <span class="opacity-40">/ 100 </span>
+            </span>
+          </div>
+          <!-- Fourth Table Block -->
+          <div
+            class="fourth table-block justify-between flex flex-row p-4 rounded-lg flex-wrap"
+          >
+            <div class="left-table-block flex gap-2">
+              <img src="/assets/images/icon-visual.svg" alt="Visual_icon" />
+              <span class="text-[var(--primary-cobaltBlue)]">Visual</span>
+            </div>
+            <span>
+              <span class="num">27 </span>
+              <span class="opacity-40">/ 100 </span>
+            </span>
+          </div>
+        </div>
+        <button
+          class="w-full bg-[var(--neutral-darkGreyBlue)] py-3 rounded-full text-sm font-medium text-white hover:shadow-lg hover:shadow-[var(--gradient-lightRoyalBlue-lowerOpacity)] lg:hover:shadow-xl lg:hover:shadow-[var(--gradient-lightRoyalBlue-lowerOpacity)]"
+        >
+          Continue
+        </button>
+      </section>
+      <!-- End of the Right Section -->
+    </main>
+
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/ripple.js"></script>
+  </body>
+</html>
